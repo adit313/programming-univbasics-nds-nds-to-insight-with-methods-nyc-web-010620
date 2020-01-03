@@ -10,7 +10,7 @@ while director_data[:movies][i] do
   gross += director_data[:movies][i][:worldwide_gross]
   i += 1
 end
-return { director_data[:name] => gross}
+return gross
 end
 
 # Write a method that, given an NDS creates a new Hash
